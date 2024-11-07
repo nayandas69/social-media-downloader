@@ -1,0 +1,70 @@
+
+# Instructions for Using Social Media Downloader
+
+Thank you for choosing Social Media Downloader! Follow the instructions below to make the most out of this tool.
+
+## Starting the Downloader
+
+### For Windows
+1. **Download** the executable from [here](https://github.com/nayandas69/social-media-downloader/releases/latest).
+2. **Run** `Downloader_V1.0.0.exe`.
+
+### For Linux
+1. **Download** the Linux package (`Downloader_V1.0.0_Linux.zip` or `Downloader_V1.0.0_Linux.tar.gz`) from [here](https://github.com/nayandas69/social-media-downloader/releases/latest).
+2. Extract the downloaded file:
+   - For `.zip`:
+     ```bash
+     unzip Downloader_V1.0.0_Linux.zip
+     ```
+   - For `.tar.gz`:
+     ```bash
+     tar -xzvf Downloader_V1.0.0_Linux.tar.gz
+     ```
+3. Navigate to the extracted folder, and run it:
+   ```bash
+   ./downloader
+   ```
+
+## Main Menu Options
+After launching, you'll see the main menu with the following options:
+
+### 1. YouTube Download
+- **Description**: Download videos from YouTube with format selection.
+- **Instructions**: Select **1**, then paste the YouTube video URL when prompted. Choose the desired video format from the list displayed.
+
+### 2. Facebook Download
+- **Description**: Download videos from Facebook.
+- **Instructions**: Select **2**, then paste the Facebook video URL. The video will automatically start downloading if the link is valid.
+
+### 3. Instagram Download
+- **Description**: Download a post from Instagram.
+- **Instructions**: Select **3**, then paste the Instagram post URL. The post will download if the URL is accessible.
+
+### 4. TikTok Download
+- **Description**: Download videos from TikTok with format selection.
+- **Instructions**: Select **4**, then paste the TikTok video URL. Choose the desired video format if prompted.
+
+### 5. Batch Download
+- **Description**: Download multiple URLs from various supported platforms in one go.
+- **Instructions**: Select **5**, then enter the path to a text file containing URLs (one per line). The program will download each media file sequentially.
+
+### 6. Check for Updates
+- **Description**: Check if there’s a new version of Social Media Downloader.
+- **Instructions**: Select **6** to check for updates. Follow the prompts to download and apply any available update.
+
+### 7. Help
+- **Description**: View help and usage instructions within the program.
+- **Instructions**: Select **7** to view help details directly from the tool.
+
+### 8. Exit
+- **Description**: Exit the program.
+- **Instructions**: Select **8** to close Social Media Downloader.
+
+## Additional Information
+- **Download Location**: All media files are saved in the `media` folder within the downloader directory.
+- **Download Logs**: Each download entry is recorded in `download_history.csv`, including URL, status, and timestamp.
+
+For any issues, refer to the author’s contact information or visit [Nayan Das's Social Portal](https://socialportal.nayanchandradas.com).
+
+Enjoy your experience with Social Media Downloader!
+
